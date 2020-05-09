@@ -1,17 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import styles from './index.scss';
+import Routes from './routes';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const Index = () => {
+  return (
+    <div className={styles.cb}>
+      <h1 className={styles.heading}>
+        This is just a basic React-boilerplate.
+      </h1>
+      <h3>What the boiler plate gives you : </h3>
+      <ul>
+        <li>Webpack configuration.</li>
+        <li>Eslint configuration.</li>
+        <li>Prettier configuration.</li>
+        <li>Routing configuration</li>
+        <li>Styling with CSS / SASS</li>
+        <li>Netlify route fix configuration</li>
+      </ul>
+      <Routes />
+    </div>
+  );
+};
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render(<Index />, document.getElementById('index'));
