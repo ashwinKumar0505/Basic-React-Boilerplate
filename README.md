@@ -1,36 +1,20 @@
-# Codebrahma-React-Boilerplate
+# Basic-React Boilerplate
 
-A React Boilerplate with all the latest packages.
+A React Boilerplate with all the basic configuration.
 
-#### 1. React V16.8.4
+#### 1. Webpack configuration.
 
-#### 2. Webpack 4.29.6
+#### 2. Babel configuration.
 
-#### 3. Style using SASS / CSS
+#### 3. Eslint configuration.
 
-#### 4. Code spliting with lazy and suspense
+#### 4. Style using SASS / CSS.
 
-#### 5. Uglification & URL hashing for js builds
+#### 5. Prettier configuration.
 
-### For Installing
+#### 6. React Routing Configuration.
 
-```javascript
-npm install
-```
+#### 7. Netlify fix routing configuration.
 
-### Linting
-
-```javascript
-npm run lint
-```
-
-### Building
-
-```javascript
-npm run build
-```
-
-
-
-
+Clone the repo and use it.
 
